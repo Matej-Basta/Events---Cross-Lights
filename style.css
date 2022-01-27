@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  width: 97%;
+  margin: auto;
+  justify-content: space-around;
+  height: 100vh;
+  align-items: center;
+}
+
+.stop-on {
+  background-position: center;
+  background-image: url("stop-on.svg");
+  background-size: contain;
+  width: 40%;
+  height: 90%;
+  background-repeat: no-repeat;
+}
+
+.stop-off {
+  background-position: center;
+  background-image: url("stop-off.svg");
+  background-size: contain;
+  width: 40%;
+  height: 90%;
+  background-repeat: no-repeat;
+}
+
+.button-cross {
+  height: 10vh;
+}
+
+.walk-off {
+  background-image: url("walk-off.svg");
+  background-size: contain;
+  width: 40%;
+  height: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.walk-on {
+  background-image: url("walk-on.svg");
+  background-size: contain;
+  width: 40%;
+  height: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
